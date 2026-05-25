@@ -163,3 +163,14 @@ fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
 ```
+
+## 🛡️ SYSTEM INTELLECTUAL PROPERTY
+
+The operational implementation cores—specifically the recursive prompt parsing models, deep network scraping heuristics, and memory optimization loops—are locked under secure enterprise layers. This open-source repository serves strictly as the verification chassis and logical architectural blueprint.
+
+* **Chief Architect:** Manuel Echepares
+* **Corporate Entity:** Axiom Systems
+* **Verification Profile X:** [ManuelAxiom](https://x.com/ManuelAxiom)
+* **Production Context:** `manuelecheparesvalderrama@gmail.com`
+
+> *The Code belongs to the Engineer. The Architecture controls the Machine. The Glass is just your viewport.*
