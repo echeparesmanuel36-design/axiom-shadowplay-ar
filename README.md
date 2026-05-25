@@ -25,6 +25,24 @@ Axiom ShadowPlay AR eradicates these systemic bottlenecks through single-ring me
 ▼ (Direct Base Register Mapping)
 [Display Engine Frame Buffer (0x5000_0000)]
 ```
+### Core Execution Matrix
+
+1. **Bare-Metal Photon Ingestion:** Direct polling loops over raw depth sensor registers mapping photon interruption data at sub-millisecond intervals with $O(1)$ scaling up to 32,768 edge vertices.
+2. **SIMD Penumbra Tracking:** High-speed parallel computation of spatial intensity gradients ($\nabla I$) across hardware registers utilizing vector math paths (AVX-512 / ARM Neon).
+3. **Procedural Particle Portals:** Immediate localized spawning of digital assets based on explicit integration constraint mechanics, completely independent of OS runtime telemetry or garbage-collection loops.
+4. **Direct Register Streaming:** Vertex arrays bypass window composition abstractions (e.g., Wayland, SurfaceFlinger) and write directly to GPU/display frame-buffer memory blocks (`0x5000_0000`).
+
+---
+
+## Mathematical Model: Gradient Edge Detection
+
+The boundary edge vectors $\vec{E}$ for a physical shadow projection are continuously evaluated by calculating spatial intensity gradients across hardware memory blocks:
+
+$$\nabla I(x, y) = \left( \frac{\partial I}{\partial x}, \frac{\partial I}{\partial y} \right)$$
+
+Where $I(x, y)$ represents the raw photon index mapped from the sensor matrix. Once boundaries are locked into static stack memory blocks, procedural kinematics scale from the edge coordinates via explicit vector math:
+
+$$\vec{v}_{next} = \vec{v}_{current} + (\vec{F}_{procedural} \times \nabla I) \cdot \Delta t$$
 
 ### Bare-Metal Execution Core (Rust Architecture)
 
